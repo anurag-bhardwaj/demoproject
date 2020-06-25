@@ -1,0 +1,124 @@
+body{
+	margin:0;
+	padding: 0;
+}
+.navbar
+{
+	position: fixed;	
+	top:0;
+	z-index: 3;
+	width: 100%;
+}
+
+.navbar-brand
+{
+	font-size: 1.5rem;
+}
+.nav-link
+{
+	font-size: 1.25rem;
+}
+@media (max-width:1000px)
+{
+	.navbar-brand
+	{
+		font-size: 4rem;
+	}	
+	.navbar-toggler-icon
+	{
+		font-size: 3rem;
+	}
+	.nav-link
+	{
+		font-size: 2.25rem;
+	}
+}
+#space
+{
+	margin-top: 8vh;
+}
+.bg-cover
+{
+	background-image: url('https://blog.vuze.camera/content/images/2019/04/adult-blur-camera-368893-1.jpg');
+	background-image:
+    linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(0,0,0, 0.7)),
+    url('https://blog.vuze.camera/content/images/2019/04/adult-blur-camera-368893-1.jpg');
+	z-index: 1;
+}
+.jumbotron
+{
+	color:white;
+	margin-bottom: 0;
+}
+.jumbotron h1
+{
+	font-size: 3rem;
+}
+.jumbotron p
+{
+	font-size: 1.5rem;
+}
+@media (max-width:1000px)
+{
+	.jumbotron
+	{
+		padding: 5rem;
+	}
+	.jumbotron h1
+	{
+		font-size: 6rem;
+	}
+	.jumbotron p
+	{
+		font-size: 3rem;
+	}
+}
+.photo-booth
+{
+	width:  100%;
+	margin-top: 0;
+}
+.row
+{
+	margin-left: auto;
+}
+.colu
+{
+	margin-top: 0;
+	height: 50vh;
+}
+@media (max-width:1000px)
+{
+	.colu
+	{
+		margin-top: 0;
+		height: 40vh;
+	}
+}
+img
+{
+	box-shadow: 10px 10px 10px 10px;
+	height: 40vh;
+	width: 80%;
+	margin-top: 2vh;
+	margin-left: 5%;
+	margin-bottom: 1vh;
+}
+@media (max-width:1000px)
+{
+	img
+	{
+		box-shadow: 10px 10px 10px 10px;
+		height: 30vh;
+		width: 60%;
+		text-align: center;
+		margin-left: 20%;
+	}
+}
+.photo-add
+{
+	margin-top: 1vh;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 3rem;
+}
